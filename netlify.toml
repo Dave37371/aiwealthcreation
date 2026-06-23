@@ -1,0 +1,6 @@
+# Static site — no build step. Netlify serves files directly from the repo root.
+# /aurum/index.html  ->  served at aiwealthcreation.com/aurum
+# /index.html        ->  served at aiwealthcreation.com
+
+[build]
+  publish = "."
