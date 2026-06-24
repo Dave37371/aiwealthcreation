@@ -31,6 +31,7 @@
   .op-sub { font-size:20px; max-width:640px; margin:0 auto 24px; opacity:.9; }
   .op-hosts { font-size:16px; letter-spacing:1px; text-transform:uppercase; opacity:.8; margin-bottom:26px; }
   .op-hosts b { color:#ffffff; }
+  .op-riskline { max-width:640px; margin:18px auto 0; font-size:13px; line-height:1.5; color:#cfcfcf; background:rgba(204,0,0,0.12); border:1px solid #CC0000; border-radius:2px; padding:12px 16px; }
 
   .op-sched { display:inline-block; text-align:left; background:#1c1c1c; border:1px solid #333; border-radius:2px; padding:20px 28px; }
   .op-sched .lbl { font-family:'Bebas Neue',sans-serif; font-size:18px; letter-spacing:2px; color:#CC0000; display:block; margin-bottom:10px; }
@@ -74,6 +75,13 @@
   .op-vti .op-btn { background:#ffffff; color:#111111; }
   .op-vti .op-btn:hover { background:#e6e6e6; }
 
+  /* FULL DISCLAIMER */
+  .op-disc { background:#1c1c1c; color:#cfcfcf; padding:46px 0; border-top:3px solid #CC0000; }
+  .op-disc-h { font-family:'Bebas Neue',sans-serif; font-size:26px; letter-spacing:1px; color:#CC0000; margin-bottom:18px; }
+  .op-disc p { font-size:13px; line-height:1.7; margin-bottom:14px; }
+  .op-disc p b { color:#ffffff; }
+  .op-disc-fine { font-size:12px; color:#888; border-top:1px solid #333; padding-top:16px; margin-top:6px; }
+
   /* FOOTER */
   .op-footer { background:#111111; color:#ffffff; text-align:center; padding:24px 0; font-size:12px; opacity:.55; }
   .op-footer .op-wrap { line-height:1.5; }
@@ -87,14 +95,6 @@
 
 <div class="op-page">
 
-  <!-- HEADER -->
-  <header class="op-header">
-    <div class="op-wrap">
-      <div class="op-brand">AURUM <span>OPPORTUNITY</span></div>
-      <div class="op-tag">Down Under Teams</div>
-    </div>
-  </header>
-
   <!-- HERO -->
   <section class="op-hero">
     <div class="op-wrap">
@@ -103,6 +103,8 @@
       <div class="op-rule"></div>
       <p class="op-sub">AI-powered decentralised finance — built for everyday people, not just the wealthy. Watch the live presentation, then book a call with our team.</p>
       <div class="op-hosts">Hosted live by <b>Jeff, Daryl &amp; Dave</b></div>
+
+      <p class="op-riskline">Risk warning: This is a promotion of a cryptocurrency platform, not financial advice. Crypto is high-risk and you can lose some or all of your money. Returns are never guaranteed. The hosts earn affiliate commissions when you join through them. See full disclaimer below.</p>
 
       <div class="op-sched">
         <span class="lbl">Every Thursday</span>
@@ -184,11 +186,23 @@
     </div>
   </section>
 
+  <!-- FULL DISCLAIMER -->
+  <section class="op-disc">
+    <div class="op-wrap">
+      <h3 class="op-disc-h">Important Disclaimer — Please Read</h3>
+      <p><b>Not financial advice.</b> The information shared on this page and during the live presentation is general information and marketing only. It does not take into account your personal objectives, financial situation or needs, and must not be relied on as financial, investment, legal or tax advice. Nothing here is a recommendation to acquire any financial product or to make any investment. You should seek independent, licensed professional advice before making any financial decision.</p>
+      <p><b>No guarantees and no income claims.</b> Cryptocurrency and digital-asset platforms are high-risk and volatile. The value of digital assets can fall as well as rise, and you may lose some or all of the money you put in. Any results, figures or examples mentioned are not typical, are not promises, and are not a guarantee of future performance. Past performance is not a reliable indicator of future results. We do not guarantee any income, profit, return or outcome of any kind.</p>
+      <p><b>Affiliate disclosure.</b> The hosts of this call (Jeff, Daryl and Dave) are independent affiliates of the platform being presented. We are not employees, owners or representatives of the company, and we do not control or operate the platform. We may earn affiliate commissions, referral payments or other compensation if you create an account or participate through us. This means we have a financial interest in you joining. Always do your own research.</p>
+      <p><b>Honour your relationships.</b> Please only book a call or join through us if you were personally invited by one of us. If another affiliate or community leader introduced you, please reconnect with them first.</p>
+      <p><b>For Australian residents (ASIC).</b> This presentation has not been authorised by, lodged with, or reviewed by the Australian Securities and Investments Commission (ASIC). The hosts do not hold an Australian Financial Services Licence (AFSL) and are not authorised to provide financial product advice. Crypto-assets are largely unregulated in Australia and may not be protected by Australian consumer or investor protections. Consider obtaining advice from an AFSL-licensed adviser before participating.</p>
+      <p class="op-disc-fine">By booking a call you confirm you have read and understood this disclaimer and are participating entirely at your own risk.</p>
+    </div>
+  </section>
+
   <!-- FOOTER -->
   <footer class="op-footer">
     <div class="op-wrap">
-      &copy; AURUM Opportunity — Down Under Teams.<br>
-      This presentation is for information only and is not financial advice. All financial decisions are your own.
+      This presentation is for information only and is not financial advice. Crypto is high-risk; you may lose your money. Hosts earn affiliate commissions. All decisions are your own.
     </div>
   </footer>
 
